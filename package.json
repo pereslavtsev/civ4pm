@@ -1,0 +1,40 @@
+{
+  "name": "civ4pm",
+  "version": "0.1.0",
+  "main": "dist/main.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "node dist/main.js",
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production --progress"
+  },
+  "bin": {
+    "civ4pm": "./dist/main.js"
+  },
+  "dependencies": {
+    "fast-glob": "^3.2.5",
+    "ora": "^5.4.0",
+    "wmic": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.2",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "@babel/preset-typescript": "^7.13.0",
+    "@typescript-eslint/eslint-plugin": "^4.24.0",
+    "@typescript-eslint/parser": "^4.24.0",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.0",
+    "typescript": "^4.2.4",
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0",
+    "webpack-node-externals": "^3.0.0",
+    "webpack-shebang-plugin": "^1.1.4"
+  }
+}
